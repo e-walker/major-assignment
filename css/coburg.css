@@ -1,32 +1,43 @@
 
 body {
-	background: url(../images/pentridge.jpg)no-repeat; 
-	background-size: cover;
-	font-family: Questrial, sans-serif;
+	font-family: 'Amatic SC', sans-serif;
 }
 
 ul {
 	list-style: none;
+	width: 40%;
+    margin: 0 auto;
+	
 }
 
-ul li {
-	float: left;
-	margin-left: 3%;
+nav ul li {
+	display: inline-block;
+	color:#FE304C;
+	padding-top: 1%;
+	/*padding-left: 3%;*/
+
+}
+
+.top {
+	background-color: #201642;
 }
 
 .hero {
 	clear:both;
-	color: #FF0066;
-
+	
 }
 
 .hero p {
-	text-align: right;
-	margin-right: 
+	text-align: center;
+	color:#FE304C;
+	padding-bottom: 4%;
 }
 
 .hero h1 {
 	padding-top: 8%;
 	font-size: 5em;
+	font-family: 'Amatic SC', sans-serif;
+	font-weight: 400;
 	text-align: center;
+	color: #FDFEFE;
 	}
