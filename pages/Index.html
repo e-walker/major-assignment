@@ -3,9 +3,12 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Welcome to Coburg</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
 		<link rel="stylesheet" href="../css/Coburg.css">
-		<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+		<!--FONTS-->
 		<link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
+		<!--<link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>-->
 	</head>
 
 	<body>
@@ -13,27 +16,41 @@
 		<header>
 			<nav>
 				<ul>
-					<li>Meals</li>
-					<li>Services</li>
-					<li>Shops</li>
-					<li>Markets</li>
-				</ul>
+					<li><a href="menus/meals.html">Meals</a></li>
+					<li><a href="menus/services.html">Services</a></li>
+					<li><a href="menus/shops.html">Shops</a></li>
+					<li><a href="menus/markets.html">Markets</a></li>
 			</nav>
 
 		</header>
 		
 		<section class="hero">
-			<h1>WELCOME TO COBURG</h1>
-					<p>the jewel of the north.</p>
+			<div id="title">
+				<h1 id="hero">WELCOME TO COBURG</h1>
+			</div>
+			<div id="tagline">
+				<h4>the jewel of the north.</h4>
+			</div>
 		</section>
 		</div>
-		<section class="search">
+		
+		<div class="search">
+		<h3>What are you looking for?</h3>
+		<p>(There's more here than an old prison.)</p>
 			<form> 
-			<p>What are you looking for?</p>
-			<input type="text" id="mainSearch"> <input type="submit" value="Search">
+				<input type="text" id="mainSearch"> 
+				<p><a href ="x">Search</a></p>
 			</form>
+		</div>
 
-		</section>
+		<footer>
+		 	<ul>
+		 		<li><a href="#"><img src="../images/icons/instagram.png" alt="instagram"></a></li>
+		 		<li><a href="mailto:welcome.to.coburg@gmail.com"><img src="../images/icons/email.png" alt="email"></a></li>
+		 		<li><a href="#"><img src="../images/icons/twitter.png" alt="twitter"></a></li>
+		 	</ul>
+		 	<p>© Coburg Life 2015.</p>
+		 </footer>
 
 
 	</body>
